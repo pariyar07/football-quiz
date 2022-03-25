@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css);
+
+@import url("pages/Home/styles.css");
+
+*,
+::before,
+::after {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: var(--primary-bg);
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+input:focus, textarea:focus, select:focus{
+    outline: none;
+}
+
+
+:root {
+    --primary-clr: white;
+    --primary-bg: black;
+    --primary-clr-hover: #909090;
+    --secondary-bg: #171717;
+    --badge-bg: rgb(0, 153, 255);
+    --placeholder-clr: rgb(200, 200, 200);
+    --liked-clr: #FF0000;
+}
